@@ -34,18 +34,18 @@ To get started with the Personal Finance Tracker, follow these steps:
    git clone https://github.com/Thunderer2106/local-store.git
    cd local-store
    ```
-3. Install the required dependencies both in the backend and frontend folder:
-  ```
-npm install
-  ```
-5. Create a .env file in the root directory and make sure you do these changes:<br>
+2. Install the required dependencies both in the backend and frontend folder:
+   ```
+   npm install
+   ```
+4. Create a .env file in the root directory and make sure you do these changes:<br>
    ```
    NODE_ENV = development
    PORT = 
    JWT_SECRET = 
    MONGO_URI=
    ```
-6. Run the application: `npm run dev` from the root directory
-7. Access the application in your web browser at `http://localhost:3000`
+5. Run the application: `npm run dev` from the root directory
+6. Access the application in your web browser at `http://localhost:3000`
 
 
