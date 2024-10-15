@@ -2,6 +2,10 @@
 
 Local Store is a web application designed to help users find products based on their location. This platform aims to support small-scale businesses, artists, and creators who produce products as a side income or passion. By encouraging local purchases, Local Store fosters a community-driven economy and promotes creativity.
 
+## Live
+
+[Check it out](https://mernappbrad.herokuapp.com/) 
+
 ## Features
 
 - **Location-Based Product Discovery**: Users can find products near their location, helping local sellers gain visibility.
@@ -22,8 +26,26 @@ Local Store is a web application designed to help users find products based on t
 - **Authentication**: JSON Web Token (JWT) for secure authentication and session handling.
 
 
-## Demo
+## Getting Started
+To get started with the Personal Finance Tracker, follow these steps:
 
-I am not sure how long this will be up
+1. Clone the repository.
+   ```
+      git clone https://github.com/Thunderer2106/local-store.git
+      cd local-store
+   ```
+3. Install the required dependencies both in the backend and frontend folder:
+  ```
+    npm install
+  ```
+5. Create a .env file in the root directory and make sure you do these changes:<br>
+   ```
+    NODE_ENV = development
+    PORT = 
+    JWT_SECRET = 
+    MONGO_URI=
+   ```
+6. Run the application: `npm run dev` from the root directory
+7. Access the application in your web browser at `http://localhost:3000`
 
-https://mernappbrad.herokuapp.com/
+
